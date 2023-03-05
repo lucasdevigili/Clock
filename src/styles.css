@@ -1,0 +1,30 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg {
+    background-image: url(img/bg.jpg);
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+    filter: blur(4px);
+}
+
+.container {
+    height: 40vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
